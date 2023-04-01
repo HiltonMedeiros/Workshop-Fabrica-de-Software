@@ -15,3 +15,4 @@ class ClienteAdmin(admin.ModelAdmin):
     list_display = ('nome', 'endereco', 'telefone')
 
 admin.site.register(Cliente, ClienteAdmin)
+
